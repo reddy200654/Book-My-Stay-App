@@ -1,27 +1,7 @@
-/**
- * ================================================================
- * MAIN CLASS - UseCase6RoomAllocationService
- * ================================================================
- *
- * Use Case 6: Reservation Confirmation & Room Allocation
- *
- * Description:
- * This class demonstrates how booking
- * requests are confirmed and rooms
- * are allocated safely.
- *
- * It consumes booking requests in FIFO
- * order and updates inventory immediately.
- *
- * @version 6.0
- */
+
 public class UseCase6RoomAllocationService {
 
-    /**
-     * Application entry point.
-     *
-     * @param args Command-line arguments
-     */
+
     public static void main(String[] args) {
         BookingRequestQueue bookingQueue = new BookingRequestQueue();
         RoomInventory inventory = new RoomInventory();
