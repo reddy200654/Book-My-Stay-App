@@ -1,28 +1,7 @@
-/**
- * ================================================================
- * MAIN CLASS - UseCase3InventorySetup
- * ================================================================
- *
- * Use Case 3: Centralized Room Inventory Management
- *
- * Description:
- * This class demonstrates how room availability
- * is managed using a centralized inventory.
- *
- * Room objects are used to retrieve pricing
- * and room characteristics.
- *
- * No booking or search logic is introduced here.
- *
- * @version 3.0
- */
+
 public class UseCase3InventorySetup {
 
-    /**
-     * Application entry point.
-     *
-     * @param args Command-line arguments
-     */
+
     public static void main(String[] args) {
         Room singleRoom = new SingleRoom();
         Room doubleRoom = new DoubleRoom();
