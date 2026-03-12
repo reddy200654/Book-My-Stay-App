@@ -1,27 +1,7 @@
-/**
- * ================================================================
- * MAIN CLASS - UseCase2RoomInitialization
- * ================================================================
- *
- * Use Case 2: Basic Room Types & Static Availability
- *
- * Description:
- * This class demonstrates room initialization
- * using domain models before introducing
- * centralized inventory management.
- *
- * Availability is represented using
- * simple variables to highlight limitations.
- *
- * @version 2.1
- */
+
 public class UseCase2RoomInitialization {
 
-    /**
-     * Application entry point.
-     *
-     * @param args Command-line arguments
-     */
+    
     public static void main(String[] args) {
         Room singleRoom = new SingleRoom();
         Room doubleRoom = new DoubleRoom();
